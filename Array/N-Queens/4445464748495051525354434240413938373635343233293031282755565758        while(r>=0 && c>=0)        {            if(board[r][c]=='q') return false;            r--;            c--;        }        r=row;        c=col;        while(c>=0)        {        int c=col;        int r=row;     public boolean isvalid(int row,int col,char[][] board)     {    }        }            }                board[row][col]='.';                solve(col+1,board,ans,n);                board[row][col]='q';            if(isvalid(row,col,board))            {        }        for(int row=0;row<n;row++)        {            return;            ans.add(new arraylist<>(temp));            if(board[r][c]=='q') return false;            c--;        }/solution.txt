@@ -1,0 +1,32 @@
+
+        while(r>=0 && c>=0)
+        {
+            if(board[r][c]=='Q') return false;
+            r--;
+            c--;
+        }
+        r=row;
+        c=col;
+        while(c>=0)
+        {
+        int c=col;
+        int r=row;
+     public boolean isValid(int row,int col,char[][] board)
+     {
+    }
+        }
+            }
+                board[row][col]='.';
+                solve(col+1,board,ans,n);
+                board[row][col]='Q';
+            if(isValid(row,col,board))
+            {
+        }
+        for(int row=0;row<n;row++)
+        {
+            return;
+            ans.add(new ArrayList<>(temp));
+            if(board[r][c]=='Q') return false;
+            c--;
+        }
+
