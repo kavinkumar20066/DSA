@@ -25,6 +25,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### Database
+<details>
+<summary>Click to expand Database problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 1978 | [Employees Whose Manager Left the Company](./Database/Employees%20Whose%20Manager%20Left%20the%20Company/) | Easy |
+
+</details>
+
+
 ### Hash Table
 <details>
 <summary>Click to expand Hash Table problems</summary>
