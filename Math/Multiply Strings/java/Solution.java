@@ -1,30 +1,20 @@
-class Solution {
-    public String multiply(String num1, String num2) {
-        if (num1.equals("0") || num2.equals("0")) return "0";
-
-        int n1 = num1.length();
-        int n2 = num2.length();
-
-        int[] result = new int[n1 + n2];
-
-        for (int i = n1 - 1; i >= 0; i--) {
-            for (int j = n2 - 1; j >= 0; j--) {
-                int mul = (num1.charAt(i) - '0') * (num2.charAt(j) - '0');
-
-                int sum = mul + result[i + j + 1];
-
-                result[i + j + 1] = sum % 10;
-                result[i + j] += sum / 10;
-            }
-        }
-        StringBuilder sb = new StringBuilder();
-        int i = 0;
-        while (i < result.length && result[i] == 0) i++;
-
-        for (; i < result.length; i++) {
-            sb.append(result[i]);
-        }
-
-        return sb.toString();
+class Solution
+ {
+    public String multiply(String num1, String num2) 
+    {
+        int sum=0;
+       return multiple(num1, num2, 0);
     }
-}
+    static String multiple(String num1, String num2,int sum)
+    {
+        if(num1.length()==0)
+        {
+             StringBuffer str = new StringBuffer();
+        str.append(sum);
+            return str.toString();
+        }
+        int power=((int)Math.pow((int)10,num1.length()-1))*(num1.charAt(0)-'0');
+        int power2=(int)power*(Integer.valueOf(num2));
+        return multiple(num1.substring(1),num2,sum+power2);
+    }
+ }
