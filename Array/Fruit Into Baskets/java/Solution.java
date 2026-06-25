@@ -7,13 +7,16 @@ class Solution {
         for(int l=0;l<f.length;l++)
         {
             map.put(f[l],map.getOrDefault(f[l],0)+1);
-            count++;
             while(map.size()>2)
             {
-                count=count-map.getOrDefault(f[l],0);
+               map.put(f[r],map.getOrDefault(f[r],0)-1);
+               if(map.getOrDefault(f[r],0)==0)
+               {
                 map.remove(f[r]);
-                r++;
+               }
+               r++;
             }
+            count=Math.max(count,(l-r+1));
         } 
         return count;   
     }
