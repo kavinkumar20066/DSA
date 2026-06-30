@@ -45,6 +45,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 1068 | [Product Sales Analysis I](./Database/Product%20Sales%20Analysis%20I/) | Easy |
 | 1148 | [Article Views I](./Database/Article%20Views%20I/) | Easy |
 | 1683 | [Invalid Tweets](./Database/Invalid%20Tweets/) | Easy |
+| 1729 | [Find Followers Count](./Database/Find%20Followers%20Count/) | Easy |
 | 1757 | [Recyclable and Low Fat Products](./Database/Recyclable%20and%20Low%20Fat%20Products/) | Easy |
 | 1978 | [Employees Whose Manager Left the Company](./Database/Employees%20Whose%20Manager%20Left%20the%20Company/) | Easy |
 
