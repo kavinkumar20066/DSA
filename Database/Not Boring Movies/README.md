@@ -5,9 +5,8 @@
 
 ## Problem Statement
 
-<p>Table: <code>Cinema</code></p>
+Table: Cinema
 
-<pre>
 +----------------+----------+
 | Column Name    | Type     |
 +----------------+----------+
@@ -19,21 +18,20 @@
 id is the primary key (column with unique values) for this table.
 Each row contains information about the name of a movie, its genre, and its rating.
 rating is a 2 decimal places float in the range [0, 10]
-</pre>
 
-<p>&nbsp;</p>
 
-<p>Write a solution to report the movies with an odd-numbered ID and a description that is not <code>&quot;boring&quot;</code>.</p>
+ 
 
-<p>Return the result table ordered by <code>rating</code> <strong>in descending order</strong>.</p>
+Write a solution to report the movies with an odd-numbered ID and a description that is not "boring".
 
-<p>The&nbsp;result format is in the following example.</p>
+Return the result table ordered by rating in descending order.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+The result format is in the following example.
 
-<pre>
-<strong>Input:</strong> 
+ 
+Example 1:
+
+Input: 
 Cinema table:
 +----+------------+-------------+--------+
 | id | movie      | description | rating |
@@ -44,17 +42,40 @@ Cinema table:
 | 4  | Ice song   | Fantacy     | 8.6    |
 | 5  | House card | Interesting | 9.1    |
 +----+------------+-------------+--------+
-<strong>Output:</strong> 
+Output: 
 +----+------------+-------------+--------+
 | id | movie      | description | rating |
 +----+------------+-------------+--------+
 | 5  | House card | Interesting | 9.1    |
 | 1  | War        | great 3D    | 8.9    |
 +----+------------+-------------+--------+
-<strong>Explanation:</strong> 
+Explanation: 
 We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 is boring so we do not include it in the answer.
-</pre>
 
+## Examples
+
+```
+Input: 
+Cinema table:
++----+------------+-------------+--------+
+| id | movie      | description | rating |
++----+------------+-------------+--------+
+| 1  | War        | great 3D    | 8.9    |
+| 2  | Science    | fiction     | 8.5    |
+| 3  | irish      | boring      | 6.2    |
+| 4  | Ice song   | Fantacy     | 8.6    |
+| 5  | House card | Interesting | 9.1    |
++----+------------+-------------+--------+
+Output: 
++----+------------+-------------+--------+
+| id | movie      | description | rating |
++----+------------+-------------+--------+
+| 5  | House card | Interesting | 9.1    |
+| 1  | War        | great 3D    | 8.9    |
++----+------------+-------------+--------+
+Explanation: 
+We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 is boring so we do not include it in the answer.
+```
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
