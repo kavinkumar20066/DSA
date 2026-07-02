@@ -3,10 +3,6 @@ class Solution {
     {
         String[] v1=v11.split("\\.");
         String[] v2=v22.split("\\.");
-        if(v1.length==1 && v2.length==1)
-        {
-            return 0;
-        }
         int i=0;
         int j=0;
         while(i<v1.length && j<v2.length)
