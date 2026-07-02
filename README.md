@@ -79,6 +79,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### Two Pointers
+<details>
+<summary>Click to expand Two Pointers problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 165 | [Compare Version Numbers](./Two%20Pointers/Compare%20Version%20Numbers/) | Medium |
+
+</details>
+
+
 <p align="center">
 Building Technical Excellence Through Consistent Problem Solving.
 </p>
