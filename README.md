@@ -39,6 +39,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 176 | [Second Highest Salary](./Database/Second%20Highest%20Salary/) | Medium |
+| 181 | [Employees Earning More Than Their Managers](./Database/Employees%20Earning%20More%20Than%20Their%20Managers/) | Easy |
 | 184 | [Department Highest Salary](./Database/Department%20Highest%20Salary/) | Medium |
 | 586 | [Customer Placing the Largest Number of Orders](./Database/Customer%20Placing%20the%20Largest%20Number%20of%20Orders/) | Easy |
 | 595 | [Big Countries](./Database/Big%20Countries/) | Easy |
