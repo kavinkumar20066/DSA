@@ -1,31 +1,31 @@
 class Solution {
     public int canCompleteCircuit(int[] g, int[] c) {
-        int sumg=0;
-        int sumc=0;
-        int sum=0;
-        int k=0;
-     for(int i=0;i<g.length;i++)
-     {
-        sumg+=g[i];
-        sumc+=c[i];
-     }   
-      if(sumg<sumc)
-     {
-        return -1;
-     }
-     for(int i=0;i<g.length;i++)
-     {
-      k++;  
+        int g1=0;
+        int c1=0;
+        for(int i=0;i<c.length;i++)
+        {
+            c1+=c[i];
+            g1+=g[i];
+        }
+        if(g1<c1)
+        {
+            return -1;
+        }
+    int t=0;
+    for(int i=0;i<g.length-1;i++)
+    {
+        int h=g[i];
         if(g[i]>=c[i])
         {
-        sum+=g[i];
-        sum=sum-c[i];
+            int n=g[i]-c[i];
+            h+=n;
         }
-        else if(sum<c[i])
+        else
         {
-            k=1;
+            t=i;
+            g[i]=0;
         }
-     }
-     return k;
+    }
+    return t+1;
     }
 }
