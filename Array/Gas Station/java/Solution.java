@@ -1,31 +1,27 @@
 class Solution {
-    public int canCompleteCircuit(int[] g, int[] c) {
-        int g1=0;
-        int c1=0;
-        for(int i=0;i<c.length;i++)
+    public int canCompleteCircuit(int[] gas, int[] cost) 
+    {
+        int gascount=0;
+        int costcount=0;
+        for(int i=0;i<gas.length;i++)
         {
-            c1+=c[i];
-            g1+=g[i];
+            gascount+=gas[i];
+            costcount+=cost[i];
         }
-        if(g1<c1)
-        {
+        if(gascount<costcount){
             return -1;
         }
-    int t=0;
-    for(int i=0;i<g.length-1;i++)
-    {
-        int h=g[i];
-        if(g[i]>=c[i])
+        int index=0;
+        int val=0;
+        for(int i=0;i<gas.length;i++)
         {
-            int n=g[i]-c[i];
-            h+=n;
+            val=(gas[i]-cost[i])+val;
+            if(val<0)
+            {
+                index=i+1;
+                val=0;
+            }
         }
-        else
-        {
-            t=i;
-            g[i]=0;
-        }
-    }
-    return t+1;
+        return index;    
     }
 }
