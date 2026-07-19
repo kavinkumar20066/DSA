@@ -7,8 +7,9 @@ class Solution {
         while(l<=h)
         {
             int mid=(l+h)/2;
-            if((mid*mid)==x) return mid;
-            else if((mid*mid)>x)
+            long s=(long)mid*mid;
+            if((s)==x) return mid;
+            else if((s)>x)
             {
                 h=mid-1;
             }
