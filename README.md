@@ -79,6 +79,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 43 | [Multiply Strings](./Math/Multiply%20Strings/) | Medium |
+| 69 | [Sqrt(x)](./Math/Sqrt(x)/) | Easy |
 | 231 | [Power of Two](./Math/Power%20of%20Two/) | Easy |
 | 509 | [Fibonacci Number](./Math/Fibonacci%20Number/) | Easy |
 
