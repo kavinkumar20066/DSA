@@ -23,6 +23,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
 | 78 | [Subsets](./Array/Subsets/) | Medium |
 | 134 | [Gas Station](./Array/Gas%20Station/) | Medium |
+| 189 | [Rotate Array](./Array/Rotate%20Array/) | Medium |
 | 219 | [Contains Duplicate II](./Array/Contains%20Duplicate%20II/) | Easy |
 | 350 | [Intersection of Two Arrays II](./Array/Intersection%20of%20Two%20Arrays%20II/) | Easy |
 | 697 | [Degree of an Array](./Array/Degree%20of%20an%20Array/) | Easy |
