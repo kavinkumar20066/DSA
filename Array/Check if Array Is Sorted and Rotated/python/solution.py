@@ -2,7 +2,7 @@ class Solution:
     def check(self, nums: List[int]) -> bool:
         countfirst=0
         for i in range(len(nums)-1):
-            if nums[i]<nums[i+1]:
+            if nums[i]<=nums[i+1]:
                 countfirst+=1
             else:
                 break
