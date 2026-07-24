@@ -20,6 +20,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 |---|---------|------------|
 | 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
 | 14 | [Longest Common Prefix](./Array/Longest%20Common%20Prefix/) | Easy |
+| 41 | [First Missing Positive](./Array/First%20Missing%20Positive/) | Easy |
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
 | 78 | [Subsets](./Array/Subsets/) | Medium |
 | 134 | [Gas Station](./Array/Gas%20Station/) | Medium |
