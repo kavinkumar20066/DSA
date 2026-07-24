@@ -23,6 +23,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 41 | [First Missing Positive](./Array/First%20Missing%20Positive/) | Easy |
 | 49 | [Group Anagrams](./Array/Group%20Anagrams/) | Easy |
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
+| 73 | [Set Matrix Zeroes](./Array/Set%20Matrix%20Zeroes/) | Medium |
 | 78 | [Subsets](./Array/Subsets/) | Medium |
 | 134 | [Gas Station](./Array/Gas%20Station/) | Medium |
 | 189 | [Rotate Array](./Array/Rotate%20Array/) | Medium |
