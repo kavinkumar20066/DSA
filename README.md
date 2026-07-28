@@ -45,6 +45,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### Binary Search
+<details>
+<summary>Click to expand Binary Search problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 374 | [Guess Number Higher or Lower](./Binary%20Search/Guess%20Number%20Higher%20or%20Lower/) | Easy |
+
+</details>
+
+
 ### Database
 <details>
 <summary>Click to expand Database problems</summary>
