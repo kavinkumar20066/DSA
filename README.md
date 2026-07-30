@@ -22,6 +22,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 4 | [Median of Two Sorted Arrays](./Array/Median%20of%20Two%20Sorted%20Arrays/) | Medium |
 | 11 | [Container With Most Water](./Array/Container%20With%20Most%20Water/) | Medium |
 | 14 | [Longest Common Prefix](./Array/Longest%20Common%20Prefix/) | Easy |
+| 33 | [Search in Rotated Sorted Array](./Array/Search%20in%20Rotated%20Sorted%20Array/) | Medium |
 | 41 | [First Missing Positive](./Array/First%20Missing%20Positive/) | Easy |
 | 49 | [Group Anagrams](./Array/Group%20Anagrams/) | Easy |
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
