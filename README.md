@@ -28,6 +28,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 55 | [Jump Game](./Array/Jump%20Game/) | Medium |
 | 73 | [Set Matrix Zeroes](./Array/Set%20Matrix%20Zeroes/) | Medium |
 | 78 | [Subsets](./Array/Subsets/) | Medium |
+| 81 | [Search in Rotated Sorted Array II](./Array/Search%20in%20Rotated%20Sorted%20Array%20II/) | Medium |
 | 134 | [Gas Station](./Array/Gas%20Station/) | Medium |
 | 189 | [Rotate Array](./Array/Rotate%20Array/) | Medium |
 | 219 | [Contains Duplicate II](./Array/Contains%20Duplicate%20II/) | Easy |
