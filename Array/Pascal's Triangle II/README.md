@@ -5,47 +5,31 @@
 
 ## Problem Statement
 
-Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
+<p>Given an integer <code>rowIndex</code>, return the <code>rowIndex<sup>th</sup></code> (<strong>0-indexed</strong>) row of the <strong>Pascal&#39;s triangle</strong>.</p>
 
-In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+<p>In <strong>Pascal&#39;s triangle</strong>, each number is the sum of the two numbers directly above it as shown:</p>
+<img alt="" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif" style="height:240px; width:260px" />
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> rowIndex = 3
+<strong>Output:</strong> [1,3,3,1]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> rowIndex = 0
+<strong>Output:</strong> [1]
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> rowIndex = 1
+<strong>Output:</strong> [1,1]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
- 
-Example 1:
-Input: rowIndex = 3
-Output: [1,3,3,1]
-Example 2:
-Input: rowIndex = 0
-Output: [1]
-Example 3:
-Input: rowIndex = 1
-Output: [1,1]
+<ul>
+	<li><code>0 &lt;= rowIndex &lt;= 33</code></li>
+</ul>
 
- 
-Constraints:
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you optimize your algorithm to use only <code>O(rowIndex)</code> extra space?</p>
 
-
-	0 <= rowIndex <= 33
-
-
- 
-Follow up: Could you optimize your algorithm to use only O(rowIndex) extra space?
-
-## Examples
-
-```
-Input: rowIndex = 3
-Output: [1,3,3,1]
-
-Input: rowIndex = 0
-Output: [1]
-
-Input: rowIndex = 1
-Output: [1,1]
-```
-
-## Constraints
-
-- 0 <= rowIndex <= 33
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
