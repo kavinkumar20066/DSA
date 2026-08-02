@@ -31,6 +31,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 78 | [Subsets](./Array/Subsets/) | Medium |
 | 80 | [Remove Duplicates from Sorted Array II](./Array/Remove%20Duplicates%20from%20Sorted%20Array%20II/) | Easy |
 | 81 | [Search in Rotated Sorted Array II](./Array/Search%20in%20Rotated%20Sorted%20Array%20II/) | Medium |
+| 118 | [Pascal's Triangle](./Array/Pascal's%20Triangle/) | Easy |
 | 134 | [Gas Station](./Array/Gas%20Station/) | Medium |
 | 153 | [Find Minimum in Rotated Sorted Array](./Array/Find%20Minimum%20in%20Rotated%20Sorted%20Array/) | Medium |
 | 154 | [Find Minimum in Rotated Sorted Array II](./Array/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II/) | Medium |
