@@ -5,54 +5,37 @@
 
 ## Problem Statement
 
-You are given an integer array nums with the following properties:
+<p>You are given an integer array <code>nums</code> with the following properties:</p>
 
+<ul>
+	<li><code>nums.length == 2 * n</code>.</li>
+	<li><code>nums</code> contains <code>n + 1</code> <strong>unique</strong> values, <code>n</code> of which occur <strong>exactly once</strong> in the array.</li>
+	<li>Exactly one element of <code>nums</code> is repeated <code>n</code> times.</li>
+</ul>
 
-	nums.length == 2 * n.
-	nums contains n + 1 unique values, n of which occur exactly once in the array.
-	Exactly one element of nums is repeated n times.
+<p>Return <em>the element that is repeated </em><code>n</code><em> times</em>.</p>
 
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,3,3]
+<strong>Output:</strong> 3
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [2,1,2,5,3,2]
+<strong>Output:</strong> 2
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> nums = [5,1,5,2,5,3,5,4]
+<strong>Output:</strong> 5
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Return the element that is repeated n times.
+<ul>
+	<li><code>2 &lt;= n &lt;= 5000</code></li>
+	<li><code>nums.length == 2 * n</code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
+	<li><code>nums</code> contains <code>n + 1</code> <strong>unique</strong> elements and one of them is repeated exactly <code>n</code> times.</li>
+</ul>
 
- 
-Example 1:
-Input: nums = [1,2,3,3]
-Output: 3
-Example 2:
-Input: nums = [2,1,2,5,3,2]
-Output: 2
-Example 3:
-Input: nums = [5,1,5,2,5,3,5,4]
-Output: 5
-
- 
-Constraints:
-
-
-	2 <= n <= 5000
-	nums.length == 2 * n
-	0 <= nums[i] <= 104
-	nums contains n + 1 unique elements and one of them is repeated exactly n times.
-
-## Examples
-
-```
-Input: nums = [1,2,3,3]
-Output: 3
-
-Input: nums = [2,1,2,5,3,2]
-Output: 2
-
-Input: nums = [5,1,5,2,5,3,5,4]
-Output: 5
-```
-
-## Constraints
-
-- nums.length == 2 * n.
-- nums contains n + 1 unique values, n of which occur exactly once in the array.
-- Exactly one element of nums is repeated n times.
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
