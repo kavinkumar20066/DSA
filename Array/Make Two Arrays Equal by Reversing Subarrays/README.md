@@ -5,71 +5,49 @@
 
 ## Problem Statement
 
-You are given two integer arrays of equal length target and arr. In one step, you can select any non-empty subarray of arr and reverse it. You are allowed to make any number of steps.
+<p>You are given two integer arrays of equal length <code>target</code> and <code>arr</code>. In one step, you can select any <strong>non-empty subarray</strong> of <code>arr</code> and reverse it. You are allowed to make any number of steps.</p>
 
-Return true if you can make arr equal to target or false otherwise.
+<p>Return <code>true</code> <em>if you can make </em><code>arr</code><em> equal to </em><code>target</code><em>&nbsp;or </em><code>false</code><em> otherwise</em>.</p>
 
- 
-Example 1:
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Input: target = [1,2,3,4], arr = [2,4,1,3]
-Output: true
-Explanation: You can follow the next steps to convert arr to target:
+<pre>
+<strong>Input:</strong> target = [1,2,3,4], arr = [2,4,1,3]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> You can follow the next steps to convert arr to target:
 1- Reverse subarray [2,4,1], arr becomes [1,4,2,3]
 2- Reverse subarray [4,2], arr becomes [1,2,4,3]
 3- Reverse subarray [4,3], arr becomes [1,2,3,4]
 There are multiple ways to convert arr to target, this is not the only way to do so.
+</pre>
 
+<p><strong class="example">Example 2:</strong></p>
 
-Example 2:
+<pre>
+<strong>Input:</strong> target = [7], arr = [7]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> arr is equal to target without any reverses.
+</pre>
 
-Input: target = [7], arr = [7]
-Output: true
-Explanation: arr is equal to target without any reverses.
+<p><strong class="example">Example 3:</strong></p>
 
+<pre>
+<strong>Input:</strong> target = [3,7,9], arr = [3,7,11]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> arr does not have value 9 and it can never be converted to target.
+</pre>
 
-Example 3:
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Input: target = [3,7,9], arr = [3,7,11]
-Output: false
-Explanation: arr does not have value 9 and it can never be converted to target.
+<ul>
+	<li><code>target.length == arr.length</code></li>
+	<li><code>1 &lt;= target.length &lt;= 1000</code></li>
+	<li><code>1 &lt;= target[i] &lt;= 1000</code></li>
+	<li><code>1 &lt;= arr[i] &lt;= 1000</code></li>
+</ul>
 
-
- 
-Constraints:
-
-
-	target.length == arr.length
-	1 <= target.length <= 1000
-	1 <= target[i] <= 1000
-	1 <= arr[i] <= 1000
-
-## Examples
-
-```
-Input: target = [1,2,3,4], arr = [2,4,1,3]
-Output: true
-Explanation: You can follow the next steps to convert arr to target:
-1- Reverse subarray [2,4,1], arr becomes [1,4,2,3]
-2- Reverse subarray [4,2], arr becomes [1,2,4,3]
-3- Reverse subarray [4,3], arr becomes [1,2,3,4]
-There are multiple ways to convert arr to target, this is not the only way to do so.
-
-Input: target = [7], arr = [7]
-Output: true
-Explanation: arr is equal to target without any reverses.
-
-Input: target = [3,7,9], arr = [3,7,11]
-Output: false
-Explanation: arr does not have value 9 and it can never be converted to target.
-```
-
-## Constraints
-
-- target.length == arr.length
-- 1 <= target.length <= 1000
-- 1 <= target[i] <= 1000
-- 1 <= arr[i] <= 1000
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
