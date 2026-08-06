@@ -48,6 +48,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 904 | [Fruit Into Baskets](./Array/Fruit%20Into%20Baskets/) | Medium |
 | 961 | [N-Repeated Element in Size 2N Array](./Array/N-Repeated%20Element%20in%20Size%202N%20Array/) | Easy |
 | 1004 | [Max Consecutive Ones III](./Array/Max%20Consecutive%20Ones%20III/) | Medium |
+| 1460 | [Make Two Arrays Equal by Reversing Subarrays](./Array/Make%20Two%20Arrays%20Equal%20by%20Reversing%20Subarrays/) | Easy |
 | 1480 | [Running Sum of 1d Array](./Array/Running%20Sum%20of%201d%20Array/) | Easy |
 | 1695 | [Maximum Erasure Value](./Array/Maximum%20Erasure%20Value/) | Medium |
 | 1752 | [Check if Array Is Sorted and Rotated](./Array/Check%20if%20Array%20Is%20Sorted%20and%20Rotated/) | Easy |
