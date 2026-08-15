@@ -100,6 +100,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| — | [Maximum Length Substring With Two Occurrences](./General/Maximum%20Length%20Substring%20With%20Two%20Occurrences/) | Easy |
 | — | [Longest Palindromic Substring](./General/Longest%20Palindromic%20Substring/) | Easy |
 | — | [Longest Substring Without Repeating Characters](./General/Longest%20Substring%20Without%20Repeating%20Characters/) | Easy |
 
