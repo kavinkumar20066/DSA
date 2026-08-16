@@ -33,6 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 78 | [Subsets](./Array/Subsets/) | Medium |
 | 80 | [Remove Duplicates from Sorted Array II](./Array/Remove%20Duplicates%20from%20Sorted%20Array%20II/) | Medium |
 | 81 | [Search in Rotated Sorted Array II](./Array/Search%20in%20Rotated%20Sorted%20Array%20II/) | Medium |
+| 90 | [Subsets II](./Array/Subsets%20II/) | Medium |
 | 118 | [Pascal's Triangle](./Array/Pascal's%20Triangle/) | Easy |
 | 119 | [Pascal's Triangle II](./Array/Pascal's%20Triangle%20II/) | Easy |
 | 134 | [Gas Station](./Array/Gas%20Station/) | Medium |
