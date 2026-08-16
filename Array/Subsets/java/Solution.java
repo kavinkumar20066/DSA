@@ -1,22 +1,21 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         int n=nums.length;
-        int indx=0;
-        List<List<Integer>> list=new ArrayList<>();
-        List<Integer> listinner=new ArrayList<>();
-        func(indx,list,listinner,n,nums);
-        return list;        
-    }
-    public static void func(int indx,List<List<Integer>>list,List<Integer> listinner,int n,int[] nums)
-    {
-    if(indx>=n)
-        {
-            list.add(new ArrayList<>(listinner));
-            return;
+        int power=(int)Math.pow(2,n);
+        List<List<Integer>> kavin=new ArrayList<>();
+        int count=0;
+        while(count<power){
+            List<Integer> hem=new ArrayList<>();
+            int temp=0;
+            while(temp<n){
+                if(((1<<temp)&(count))!=0){
+                    hem.add(nums[temp]);
+                }
+                temp++;
+            }
+            kavin.add(hem);
+            count++;
         }
-        listinner.add(nums[indx]);
-        func(indx+1,list,listinner,n,nums);
-        listinner.remove(listinner.size() - 1);
-        func(indx+1,list,listinner,n,nums);
+        return kavin;
     }
 }
