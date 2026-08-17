@@ -25,6 +25,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 33 | [Search in Rotated Sorted Array](./Array/Search%20in%20Rotated%20Sorted%20Array/) | Medium |
 | 34 | [Find First and Last Position of Element in Sorted Array](./Array/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/) | Medium |
 | 35 | [Search Insert Position](./Array/Search%20Insert%20Position/) | Easy |
+| 39 | [Combination Sum](./Array/Combination%20Sum/) | Medium |
 | 41 | [First Missing Positive](./Array/First%20Missing%20Positive/) | Easy |
 | 49 | [Group Anagrams](./Array/Group%20Anagrams/) | Easy |
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
