@@ -147,6 +147,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 231 | [Power of Two](./Math/Power%20of%20Two/) | Easy |
 | 367 | [Valid Perfect Square](./Math/Valid%20Perfect%20Square/) | Easy |
 | 509 | [Fibonacci Number](./Math/Fibonacci%20Number/) | Easy |
+| 3622 | [Check Divisibility by Digit Sum and Product](./Math/Check%20Divisibility%20by%20Digit%20Sum%20and%20Product/) | Easy |
 
 </details>
 
