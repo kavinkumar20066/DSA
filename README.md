@@ -105,6 +105,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | — | [Longest Palindromic Substring](./General/Longest%20Palindromic%20Substring/) | Easy |
+| — | [Stone Game VIII](./General/Stone%20Game%20VIII/) | Easy |
 | — | [Longest Substring Without Repeating Characters](./General/Longest%20Substring%20Without%20Repeating%20Characters/) | Easy |
 
 </details>
