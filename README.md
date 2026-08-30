@@ -55,6 +55,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 1480 | [Running Sum of 1d Array](./Array/Running%20Sum%20of%201d%20Array/) | Easy |
 | 1695 | [Maximum Erasure Value](./Array/Maximum%20Erasure%20Value/) | Medium |
 | 1752 | [Check if Array Is Sorted and Rotated](./Array/Check%20if%20Array%20Is%20Sorted%20and%20Rotated/) | Easy |
+| 2091 | [Removing Minimum and Maximum From Array](./Array/Removing%20Minimum%20and%20Maximum%20From%20Array/) | Medium |
 | 3069 | [Distribute Elements Into Two Arrays I](./Array/Distribute%20Elements%20Into%20Two%20Arrays%20I/) | Easy |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](./Array/Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR/) | Medium |
 | 3866 | [First Unique Even Element](./Array/First%20Unique%20Even%20Element/) | Easy |
