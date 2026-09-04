@@ -59,6 +59,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 3069 | [Distribute Elements Into Two Arrays I](./Array/Distribute%20Elements%20Into%20Two%20Arrays%20I/) | Easy |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](./Array/Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR/) | Medium |
 | 3866 | [First Unique Even Element](./Array/First%20Unique%20Even%20Element/) | Easy |
+| 3903 | [Smallest Stable Index I](./Array/Smallest%20Stable%20Index%20I/) | Easy |
 
 </details>
 
