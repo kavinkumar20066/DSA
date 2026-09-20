@@ -162,6 +162,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 20 | [Valid Parentheses](./String/Valid%20Parentheses/) | Easy |
+| 3498 | [Reverse Degree of a String](./String/Reverse%20Degree%20of%20a%20String/) | Easy |
 
 </details>
 
