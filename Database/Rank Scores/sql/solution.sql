@@ -1,6 +1,2 @@
-# Write your MySQL query statement below
-select score ,
-rank() over (order by score DESC) as 'rank'
-from Scores
-order by score DESC 
-;
+select score , Dense_rank() over (Order by score desc) as 'rank' from scores
+order by score DESC;
