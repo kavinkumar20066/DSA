@@ -1,9 +1,4 @@
 # Write your MySQL query statement below
-select d.name as "Department" , e.name as "Employee" ,  e.Salary  from 
-employee e
-left join 
-department d
-on e.departmentId=d.id
-where e.salary=(select max(salary) from employee e
-where e.departmentId=d.id
-);
+select department,employee,salary from 
+(select e.name department ,d.name employee,rank() over(partition by d.id order by salary desc) rnk,salary from employee e left join department d on e.departmentid=d.id )t 
+where rnk=1
