@@ -6,7 +6,7 @@
 A professionally structured collection of topic-wise DSA solutions, optimized coding patterns, and interview-focused problem solving designed for technical excellence, competitive programming, and software engineering career growth.
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/harishvsb2005?theme=dark&font=Poppins&ext=heatmap" width="100%" />
+  <img src="https://leetcard.jacoblin.cool/S_KavinKumar?theme=dark&font=Poppins&ext=heatmap" width="100%" />
 </p>
 
 # 📚 Structured Problem Solving Topics
@@ -165,6 +165,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 20 | [Valid Parentheses](./String/Valid%20Parentheses/) | Easy |
+| 678 | [Valid Parenthesis String](./String/Valid%20Parenthesis%20String/) | Medium |
 | 3498 | [Reverse Degree of a String](./String/Reverse%20Degree%20of%20a%20String/) | Easy |
 
 </details>
