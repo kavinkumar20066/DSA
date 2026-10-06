@@ -166,6 +166,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 |---|---------|------------|
 | 20 | [Valid Parentheses](./String/Valid%20Parentheses/) | Easy |
 | 678 | [Valid Parenthesis String](./String/Valid%20Parenthesis%20String/) | Medium |
+| 921 | [Minimum Add to Make Parentheses Valid](./String/Minimum%20Add%20to%20Make%20Parentheses%20Valid/) | Medium |
 | 3498 | [Reverse Degree of a String](./String/Reverse%20Degree%20of%20a%20String/) | Easy |
 
 </details>
