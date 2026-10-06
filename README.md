@@ -191,6 +191,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 165 | [Compare Version Numbers](./Two%20Pointers/Compare%20Version%20Numbers/) | Medium |
+| 344 | [Reverse String](./Two%20Pointers/Reverse%20String/) | Easy |
 | 443 | [String Compression](./Two%20Pointers/String%20Compression/) | Medium |
 
 </details>
