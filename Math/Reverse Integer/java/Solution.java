@@ -2,11 +2,15 @@ class Solution
 {
     public int reverse(int x) 
     {
-        int sum=0;
-        int result=func(sum,x);
-        return result;
+        long sum=0;
+        long result=func(sum,x);
+        if(result >= Integer.MIN_VALUE && result <= Integer.MAX_VALUE)
+        {
+            return (int)result;
+        }
+        return 0;
     }
-    public static int func(int sum,int x)
+    public static long func(long sum,long x)
     {
         if(x==0)
         {
