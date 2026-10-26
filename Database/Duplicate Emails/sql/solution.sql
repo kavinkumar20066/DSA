@@ -1,2 +1,6 @@
-select count(email)
-from person ;
+SELECT
+    email Email
+FROM
+    Person
+GROUP BY email
+    Having count(*)>1;
