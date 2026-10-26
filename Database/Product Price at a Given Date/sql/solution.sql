@@ -1,5 +1,3 @@
-from
-(select *,
 max(change_date) over(partition by product_id) mt
  from 
 (select * from products where change_date<='2019-08-16')t)t
@@ -20,7 +18,8 @@ union
     from 
         Products)t
     where change_date>'2019-08-16' and rno =1)t
-)
-    product_id,
     new_price price
+from
+(select *,
 (select 
+    product_id,
