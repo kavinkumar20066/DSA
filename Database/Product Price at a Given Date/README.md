@@ -5,9 +5,8 @@
 
 ## Problem Statement
 
-<p>Table: <code>Products</code></p>
+Table: Products
 
-<pre>
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -16,21 +15,20 @@
 | change_date   | date    |
 +---------------+---------+
 (product_id, change_date) is the primary key (combination of columns with unique values) of this table.
-Each row of this table indicates that the price of some product was changed to a new price at some date.</pre>
+Each row of this table indicates that the price of some product was changed to a new price at some date.
 
-<p>Initially, all products have price 10.</p>
+Initially, all products have price 10.
 
-<p>Write a solution to find the prices of all products on the date <code>2019-08-16</code>.</p>
+Write a solution to find the prices of all products on the date 2019-08-16.
 
-<p>Return the result table in <strong>any order</strong>.</p>
+Return the result table in any order.
 
-<p>The result format is in the following example.</p>
+The result format is in the following example.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> 
+Input: 
 Products table:
 +------------+-----------+-------------+
 | product_id | new_price | change_date |
@@ -42,7 +40,7 @@ Products table:
 | 2          | 65        | 2019-08-17  |
 | 3          | 20        | 2019-08-18  |
 +------------+-----------+-------------+
-<strong>Output:</strong> 
+Output: 
 +------------+-------+
 | product_id | price |
 +------------+-------+
@@ -50,8 +48,31 @@ Products table:
 | 1          | 35    |
 | 3          | 10    |
 +------------+-------+
-</pre>
 
+## Examples
+
+```
+Input: 
+Products table:
++------------+-----------+-------------+
+| product_id | new_price | change_date |
++------------+-----------+-------------+
+| 1          | 20        | 2019-08-14  |
+| 2          | 50        | 2019-08-14  |
+| 1          | 30        | 2019-08-15  |
+| 1          | 35        | 2019-08-16  |
+| 2          | 65        | 2019-08-17  |
+| 3          | 20        | 2019-08-18  |
++------------+-----------+-------------+
+Output: 
++------------+-------+
+| product_id | price |
++------------+-------+
+| 2          | 50    |
+| 1          | 35    |
+| 3          | 10    |
++------------+-------+
+```
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
